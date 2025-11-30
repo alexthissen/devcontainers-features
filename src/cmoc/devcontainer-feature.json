@@ -1,0 +1,20 @@
+{
+    "name": "CMOC Compiler",
+    "id": "cmoc",
+    "version": "1.0.0",
+    "description": "A feature to install the CMOC compiler",
+    "options": {
+        "cmoc-version": {
+            "type": "string",
+            "enum": [
+                "0.1.97",
+                "0.1.96"
+            ],
+            "default": "0.1.97",
+            "description": "Version of CMOC compiler."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

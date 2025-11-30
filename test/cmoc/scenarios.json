@@ -1,0 +1,11 @@
+{
+    "version-0.1.97": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "cmoc": {
+                "version": "0.1.97"
+            }
+        },
+        "remoteUser": "octocat"
+    }
+}

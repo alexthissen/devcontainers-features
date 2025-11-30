@@ -1,12 +1,12 @@
 {
-    "color_and_hello": {
+    "lwtools_and_cmoc": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "color": {
-                "favorite": "purple"
+            "lwtools": {
+                "version": "4.24"
             },
-            "hello": {
-                "greeting": "Greetings"
+            "cmoc": {
+                "version": "0.1.97"
             }
         }
     }

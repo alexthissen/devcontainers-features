@@ -1,0 +1,23 @@
+{
+    "name": "LWTOOLS",
+    "id": "lwtools",
+    "version": "1.0.0",
+    "description": "A feature to install the LWTools cross-development tools",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "4.24",
+                "4.23",
+                "4.22",
+                "4.21",
+                "4.20"
+            ],
+            "default": "4.24",
+            "description": "Version of LWTools suite."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
