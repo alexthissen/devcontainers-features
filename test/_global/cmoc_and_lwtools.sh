@@ -16,12 +16,6 @@ set -e
 # Optional: Import test library bundled with the devcontainer CLI
 source dev-container-features-test-lib
 
-echo -e "The result of the 'lwtools' command will be:\n"
-lwtools
-echo -e "The result of the 'cmoc' command will be:\n"
-cmoc
-echo -e "\n"
-
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
 check "execute lwasm" bash -c "lwasm --version | grep 'lwasm from lwtools 4.24'"
