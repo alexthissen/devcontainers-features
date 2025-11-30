@@ -4,8 +4,9 @@ set -e
 # Installation instructions CMOC: http://sarrazip.com/dev/cmoc.html
 
 echo "Activating feature 'cmoc'"
+VERSION="${VERSION:-"0.1.97"}"
 SOURCE_DIR=/usr/src
-CMOC=cmoc-0.1.97
+CMOC=cmoc-${VERSION}
 mkdir -p $SOURCE_DIR
 
 # Install dependencies for CMOC

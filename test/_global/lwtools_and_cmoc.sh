@@ -24,7 +24,7 @@ echo -e "\n"
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
-check "check lwtools" bash -c "lwtools | grep ''"
+check "execute lwasm" bash -c "lwasm --version | grep 'lwasm from lwtools 4.24'"
 check "check cmoc" bash -c "cmoc | grep '0.1.97'"
 
 # Report result

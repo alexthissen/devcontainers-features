@@ -4,8 +4,9 @@ set -e
 # Installation instructions LWTools: http://www.lwtools.ca/
 
 echo "Activating feature 'lwtools'"
+VERSION="${VERSION:-"4.24"}"
 SOURCE_DIR=/usr/src
-LWTOOLS=lwtools-4.24
+LWTOOLS=lwtools-${VERSION}
 mkdir -p $SOURCE_DIR
 
 # Install LWTools
