@@ -1,12 +1,12 @@
 {
-    "lwtools_and_cmoc": {
+    "cmoc_and_lwtools": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "lwtools": {
-                "version": "4.24"
-            },
             "cmoc": {
                 "version": "0.1.97"
+            },
+            "ghcr.io/alexthissen/devcontainers-features/lwtools": {
+                "version": "4.24"
             }
         }
     }

@@ -4,6 +4,9 @@
         "features": {
             "cmoc": {
                 "version": "0.1.97"
+            },
+            "ghcr.io/alexthissen/devcontainers-features/lwtools": {
+                "version": "4.24"
             }
         }
     }
