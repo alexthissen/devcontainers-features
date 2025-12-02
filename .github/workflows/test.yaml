@@ -37,6 +37,7 @@ jobs:
         features:
           - cmoc
           - lwtools
+          - z88dk
     steps:
       - uses: actions/checkout@v4
 
