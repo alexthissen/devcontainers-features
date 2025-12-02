@@ -1,5 +1,5 @@
 {
-    "version-4.24": {
+    "version": {
         "image": "mcr.microsoft.com/devcontainers/base:debian",
         "features": {
             "z88dk": { }
