@@ -7,7 +7,7 @@ source dev-container-features-test-lib
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
-check "execute zcc" bash -c "zcc --version | grep 'zcc - Frontend'"
+check "execute zcc" bash -c "zcc --version 2>&1 | grep 'zcc - Frontend'"
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.

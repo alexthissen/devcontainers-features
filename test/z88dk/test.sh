@@ -39,7 +39,8 @@ source dev-container-features-test-lib
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib. Syntax is...
 # check <LABEL> <cmd> [args...]
-check "execute zcc" bash -c "zcc --version | grep 'zcc - Frontend'"
+check "execute zcc" bash -c "zcc --version 2&>1 | grep 'zcc - Frontend'"
+check "execute z80asm" bash -c "z80asm | grep 'Z80 Macro Assembler'"
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.
