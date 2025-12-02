@@ -15,9 +15,9 @@ jobs:
         features:
           - cmoc
           - lwtools
+          - z88dk
+          - lcc1802
         baseImage:
-          # - debian:latest
-          # - ubuntu:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
           - mcr.microsoft.com/devcontainers/base:debian
     steps:
@@ -38,6 +38,7 @@ jobs:
           - cmoc
           - lwtools
           - z88dk
+          - lcc1802
     steps:
       - uses: actions/checkout@v4
 
